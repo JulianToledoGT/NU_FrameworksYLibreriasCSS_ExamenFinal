@@ -3,7 +3,7 @@
 	<head>
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	    <link rel="stylesheet" href="css/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/jt_css.css">
 	    <title>JT-Blog-Música</title>
@@ -42,58 +42,82 @@
 				<a class="col-sm-2 col-md-2 col-lg-2 MiBoton" href="#">Acordes</a>
 			</div>
 			<p></p>
-			<div class="row">
-				<div class="col-xs-12 col-md-8" style="height: 30px; background-color: blue">
+			<div class="row secciones small">
+<!--PANEL PRINCIPAL-->
+				<div class="col-xs-12 col-md-8">
+<!--SECCIÓN 1: Artículo-->
+					<div class="row margen_s20">
+						<div class="col-sm-12 col-md-6 col-lg-6">
+							<h3>Mi música faborita</h3>
+							<p>
+								En realidad no soy muy aficionado a la música pero hay varios artistas a quienes admiro enormemente y disfruto muchísimo de su trabajo en el área de la música.
+								Me parece que la música es una de las artes más perfectas y considero que tienen un fuerte impacto en las personas a nivel emocional y espiritual.
+						</p>
+						</div>
+						<div class="col-sm-12 col-md-6 col-lg-6">
+							<img src="img\musica_generos_001.jpg" style="width: 100%" alt="Géneros Musicales">
+						</div>
+					</div>
+					<div class="row margen_s20">
+						<div class="col-2">
+							<img class="img-usuario" src="img\usuario.png" alt="Usuario">
+						</div>
+						<div class="col-9">
+								<textarea class="form-control" rows="3" placeholder="Comentario..." style="width: 100%"></textarea>
+						</div>
+					</div>
+					<div class="row margen_s20">
+						<div class="col-sm-12 col-md-6 col-lg-6">
+							<h3>Ideologías musicales</h3>
+							<img src="img\jazz_vs_clasica.jpg" style="width: 100%" alt="Jazz vs. Música Clásica">
+						</div>
+						<div class="col-sm-12 col-md-6 col-lg-6">
+							<p>
+								Hace muchos años leí en la página de un profesor de piano que indicaba que enseñaba ambos métodos interpretativos.
+								Hasta ese momento yo ni siquiera sabía de que existían tales métodos ni tengo el conocimiento adademíco para profundizar al respecto.
+								A pesar de esto, su explicación me llamó poderosamente la atención respecto a que la músuca clásica se diferenciaba del Jazz
+								siendo que la primera pretendía una interpretación que reprodujera lo más perfecto posible la partitura del compositor,
+								en cambio, la segunda toma la partitura unicamente como un lineamiento o base y pretende que cada interpretación varíe y se desarrolle cada vez de manera diferente.
+							</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-2">
+							<img class="img-usuario" src="img\usuario.png" alt="Usuario">
+						</div>
+						<div class="col-9">
+								<textarea class="form-control" rows="3" placeholder="Comentario..." style="width: 100%"></textarea>
+						</div>
+					</div>
 
 				</div>
-				<div class="d-none d-md-block col-md-4" style="height: 30px; background-color: orange">
-
-				</div>
-			</div>
-		</div>
-
-
-
-<!--
-		<div class="container seccion">
-			<div class="row">
-				<div class="col-6">
-					<h3>Mi música faborita</h3>
-					<p>En realidad no soy muy aficionado a la música aunque en realidad hay varios artistas que me llaman mucho la atención.</p>
-				</div>
-				<div class="col-6">
-					<img src="img\musica_generos_001.jpg" style="width: 100%" alt="">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-2">
-					<img src="img\usuario.png" alt="">
-				</div>
-				<div class="col-10">
-					<div class="form-group">
-					  <textarea class="form-control" rows="2" placeholder="Comentario..." style="width: 100%"></textarea>
+				<div class="d-none d-md-block col-md-4 margen_s20">
+					<div class="container-1">
+						<span class="icon"><i class="fa fa-search"></i></span>
+					  <input type="search" id="search" placeholder="Buscar por..." />
+					</div>
+					<div class="btn-group-vertical margen_s20">
+						<button type="button" class="btn btn-primary">Francisco «Paco» Pérez Muñoz</button>
+						<button type="button" class="btn btn-primary">José Ernesto Monzón</button>
+						<button type="button" class="btn btn-primary">José Domingo Bethancourt</button>
+						<button type="button" class="btn btn-primary">Martha Bolaños de Prado</button>
+						<button type="button" class="btn btn-primary">José Castañeda</button>
+						<button type="button" class="btn btn-primary">Rafael Antonio Castellanos</button>
+						<button type="button" class="btn btn-primary">Jesús Castillo Monterroso</button>
+						<button type="button" class="btn btn-primary">Ricardo Castillo</button>
+						<button type="button" class="btn btn-primary">Rocael Hurtado Mazariegos</button>
+						<button type="button" class="btn btn-primary">Rafael Juárez Castellanos</button>
+						<button type="button" class="btn btn-primary">Dieter Lehnhoff Temme</button>
+						<button type="button" class="btn btn-primary">Marvin José Lara Hernández</button>
+						<button type="button" class="btn btn-primary">Benigno Mejía Cruz</button>
+						<button type="button" class="btn btn-primary">Fabián Rodríguez</button>
+						<button type="button" class="btn btn-primary">Julián Paniagua Martínez</button>
+						<button type="button" class="btn btn-primary">Benedicto Ovalle Bethancourt</button>
+						<button type="button" class="btn btn-primary">Rafael Álvarez Ovalle</button>
+						<button type="button" class="btn btn-primary">Santiago Pivaral Caravantes</button>
 					</div>
 				</div>
-			</div></div>
-
-		<div class="container seccion">
-			<h3>Mi música faborita</h3>
-			<p>En realidad no soy muy aficionado a la música aunque en realidad hay varios artistas que me llaman mucho la atención.</p>
+			</div>
 		</div>
-		<div class="container seccion">
-			<h3>Mi música faborita</h3>
-			<p>En realidad no soy muy aficionado a la música aunque en realidad hay varios artistas que me llaman mucho la atención.</p>
-		</div>
-	-->
-
-<!--
--->
-
 	</body>
 </html>
-
-<!--
-	<img class="img-social rounded" src="img/fb.png"/>
-	<img class="img-social rounded" src="img/ig.png"/>
-	<img class="img-social rounded" src="img/tt.png"/>
--->

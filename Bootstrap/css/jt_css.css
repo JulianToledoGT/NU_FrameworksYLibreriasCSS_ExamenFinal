@@ -1,8 +1,31 @@
-/*Julian Toledo 20190602*/
+/*Julian Toledo 20190630*/
 body{
   background-color: rgb(150, 0, 15);
 }
-
+.btn-group-vertical{
+  width: 100% !important;
+}
+.btn-primary{
+  border-color: lightgray;
+  background-color:white;
+  color:darkgray;
+  text-align: left;
+}
+.container-1 {
+    position: relative;
+}
+.container-1 .icon {
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 3px;
+    color: gray;
+}
+.container-1 input#search {
+    width: 100%;
+    float: left;
+    padding-left: 45px;
+    border-radius: 5px;
+}
 .h100{
   background-color: white;
   height: 6rem;
@@ -21,23 +44,30 @@ body{
   border-radius: 5px;
   text-align: center;
   padding: 1rem;
-  background-color: rgb(255, 172, 105);
+  background-color: rgb(150, 50, 50);
 }
 .img-logo{
   height: 6rem;
 }
 .img-social{
-  color: rgb(255, 75, 0);
+  color: rgb(150, 0, 15);
 }
 .img-social:hover{
   color: rgb(50, 50, 100);
   text-shadow: 2px 2px 2px gold;
 }
-.seccion{
+.img-usuario{
+  width: 100%;
+}
+.secciones{
   background-color: white;
 }
 .MiBoton:hover{
   background-color: white;
+}
+
+.margen_s20{
+  margin-top: 20px;
 }
 
 @media (min-width: 576px) {
