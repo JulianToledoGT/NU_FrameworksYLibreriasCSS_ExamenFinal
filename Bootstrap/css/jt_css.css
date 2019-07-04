@@ -1,4 +1,4 @@
-/*Julian Toledo 20190630*/
+/*Julian Toledo 20190703*/
 body{
   background-color: rgb(150, 0, 15);
 }
@@ -65,7 +65,6 @@ body{
 .MiBoton:hover{
   background-color: white;
 }
-
 .margen_s20{
   margin-top: 20px;
 }
