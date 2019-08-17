@@ -1,4 +1,4 @@
-/*Julian Toledo - 20190602*/
+/*Julian Toledo - 20190816*/
 .size-16{font-size: 16px;}
 .size-24{font-size: 24px;}
 
@@ -18,14 +18,34 @@
   border-top: 2px solid;
   padding-top: 5px;
 }
-.jtarticulo{
+.barralateral{
   padding: 5px;
   background: rgba(255, 255, 255, 0.7);
   margin-bottom: 5px;
+  border-radius: 2px;
+}
+.jtarticulo{
+  padding: 5px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  border-radius: 2px;
 }
 .jtmenu{
   list-style:none;
 }
 .jtlema{
   border-right: 2px solid;
+}
+.jtcomentario{
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  margin-right: 1px !important;
+  margin-left: 1px !important;
+}
+.img-usuario{
+  border-radius: 30%;
+}
+.botonderecho{
+  margin-right: 15px;
 }
