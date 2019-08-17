@@ -68,6 +68,9 @@ body{
 .margen_s20{
   margin-top: 20px;
 }
+.jt_100{
+  width: 100%;
+}
 
 @media (min-width: 576px) {
   .h050{
