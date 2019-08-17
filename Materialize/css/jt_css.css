@@ -1,0 +1,27 @@
+﻿/*Julian Toledo - 20190817*/
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="columna"]{
+  min-height: 50rem;
+}
+div[class*="bloque"]{
+  height: 25rem;
+}
+
+.columna-news, .columna-chat{
+  /*border: 1px solid red;*/
+  padding: 0 !Important;
+}
+.col-min-height-7{
+  min-height: 7rem;
+}
+.col-min-height-17{
+  min-height: 17rem;
+  padding: 2rem;
+}
+.col-min-height-50{
+  min-height: 50rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
