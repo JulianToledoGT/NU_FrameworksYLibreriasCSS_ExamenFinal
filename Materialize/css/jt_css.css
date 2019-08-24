@@ -1,4 +1,4 @@
-﻿/*Julian Toledo - 20190820*/
+﻿/*Julian Toledo - 20190823*/
 .banner {
   background: url('../img/pais01.jpg');
   background-size: cover;
@@ -9,9 +9,15 @@
   width: 100%;
 }
 
-.imgYo{
-  height: 8em;
+.imgYoViajando{
+  height: 4em;
   border-radius: 5px;
+  margin: 3px;
+}
+
+.imgYo{
+  width: 60%;
+  margin: 5% 20%;
 }
 
 /*
